@@ -1,0 +1,35 @@
+header {
+	text-align: center;
+}
+
+ul {
+	padding: 10px;
+	background: black;
+}
+
+li {
+	display: inline;
+	padding: 0px 20px 0px 20px;
+}
+
+a {
+	color: white;
+}
+
+* {
+	font-family: "Helvetica";
+}
+
+.jumbotron {
+	background-image: url('images/header.png');
+}
+
+#highlight {
+	width: 500px;
+	padding: 20px;
+}
+
+#page_content {
+	width: 500px;
+	padding: 20px;
+}

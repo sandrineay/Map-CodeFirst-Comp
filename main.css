@@ -4,12 +4,12 @@ li {
 	padding: 0px 20px 0px 20px;
 }
 
-a {
-	color: white;
+.jumbotron img {
+	padding-top: 30px;
 }
 
-* {
-	font-family: "Helvetica";
+a {
+	color: white;
 }
 
 .jumbotron {
@@ -19,7 +19,7 @@ a {
 }
 
 #header {
-	background-image: url('images/header.png');
+	background-image: url('images/background.png');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -34,6 +34,27 @@ a {
 	padding: 20px;
 }
 
-body {
-	padding-bottom: 50px;
+#footer {
+	background-color: rgba(32, 35, 41, 0.9);
+	padding-bottom: 40px;
+}
+
+#social-buttons button {
+	color: white;
+}
+
+#social-buttons {
+	margin-top: 40px;
+}
+
+#btn-twitter {
+	margin-right: 10px;
+	background-color: #00acee;
+	border-color: #314776;
+}
+
+#btn-contact {
+	margin-left: 10px;
+	background-color: #b62f26;
+	border-color: #b62f26;
 }

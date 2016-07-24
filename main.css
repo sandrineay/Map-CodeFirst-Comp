@@ -17,8 +17,6 @@ li {
 
 .jumbotron {
 	padding-top: 90px;
-	min-height: 600px;
-	margin-bottom: 0;
 }
 
 #header {
@@ -59,5 +57,13 @@ li {
 
 .row {
 	padding-top: 10px;
+}
+
+#buzz h1 {
+	padding-bottom: 20px;
+}
+
+#calendar h1 {
+	padding-bottom: 20px;
 }
 

@@ -3,8 +3,8 @@
 	<head>
 		<title>MAP - This Week's Tech Events</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="main.css">
-		<link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../static/css/main.css">
+		<link rel="stylesheet" href="../static/css/bootstrap-3.3.6-dist/css/bootstrap.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</head>
@@ -22,7 +22,7 @@
 				      	<span class="icon-bar"></span>
 				    </button>
 				    <a class="navbar-brand" href="#">
-				    <img alt="Brand" src="images/brand.png">
+				    <img alt="Brand" src="../static/images/brand.png">
 				    </a>
 				</div>
 
@@ -38,7 +38,7 @@
 
 		<div class='jumbotron'>
 			<div id='header'>
-				<img src='images/map-logo-1-small.png' class='center-block img-responsive'>
+				<img src='../static/images/map-logo-1-small.png' class='center-block img-responsive'>
 				<div class='container text-center'>
 				<h1>Which tech event should you go to tonight?</h1>
 				</div>
@@ -68,7 +68,7 @@
 						</th>
 
 						<th class="col-sm-4">
-							<img src="images/women-who-code.png">
+							<img src="../static/images/women-who-code.png">
 						</th>
 
 					</tr>
@@ -107,7 +107,7 @@
 							</div>
 
 							<div class="col-sm-1">
-								<img src="images/javascript.png">
+								<img src="../static/images/javascript.png">
 							</div>
 
 							<div class="col-sm-9">
@@ -311,7 +311,19 @@
                 <h4 class="modal-title">Modal title</h4>
               </div>
               <div class="modal-body">
-                <p>One fine body&hellip;</p>
+
+                <form>
+                	<label for="name">Name: </label>
+                	<input type:"text" id="name" name="name" value="" placeholder="Your name please :)" autofocus="autofocus" /><br>
+                	<label for="email">Email Address: </label>
+					<input type="email" id="email" name="email" value="" placeholder="name@domain.com" required="required" /><br>
+					<label for="message">What is your event about?</label>
+					<input type="text" id="message" name="message" value="" placeholder="Tell us about your event!" required="required" /><br>
+					<label for="URL">Event URL</label>
+					<input type="url" id="url" name="url" value="" placeholder="http://www.tech-event.com"><br>
+					<input type="submit" value="Submit" id="submit-button" />
+                </form>
+
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

@@ -1,9 +1,7 @@
-.navbar {
-	height: 70px;
-}
-
-.nav {
-	padding-top: 10px;
+.jumbotron {
+	background-image: url('../images/background-about.png');
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 li {
@@ -11,24 +9,15 @@ li {
 	padding: 0px 20px 0px 20px;
 }
 
-.jumbotron img {
-	padding-top: 50px;
+img {
+	padding-bottom: 20px;
+	padding-top: 30px;
 }
 
-.jumbotron {
-	padding-top: 90px;
+p{
+	padding-bottom: 40px;
 }
 
-#header {
-	background-image: url('images/background.png');
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-#highlight {
-	width: 500px;
-	padding: 20px;
-}
 
 #footer {
 	background-color: rgba(32, 35, 41, 0.9);
@@ -53,17 +42,5 @@ li {
 	margin-left: 10px;
 	background-color: #b62f26;
 	border-color: #b62f26;
-}
-
-.row {
-	padding-top: 10px;
-}
-
-#buzz h1 {
-	padding-bottom: 20px;
-}
-
-#calendar h1 {
-	padding-bottom: 20px;
 }
 

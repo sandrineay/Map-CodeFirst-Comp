@@ -311,7 +311,19 @@
                 <h4 class="modal-title">Modal title</h4>
               </div>
               <div class="modal-body">
-                <p>One fine body&hellip;</p>
+
+                <form>
+                	<label for="name">Name: </label>
+                	<input type:"text" id="name" name="name" value="" placeholder="Your name please :)" autofocus="autofocus" /><br>
+                	<label for="email">Email Address: </label>
+					<input type="email" id="email" name="email" value="" placeholder="name@domain.com" required="required" /><br>
+					<label for="message">What is your event about?</label>
+					<input type="text" id="message" name="message" value="" placeholder="Tell us about your event!" required="required" /><br>
+					<label for="URL">Event URL</label>
+					<input type="url" id="url" name="url" value="" placeholder="http://www.tech-event.com"><br>
+					<input type="submit" value="Submit" id="submit-button" />
+                </form>
+
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

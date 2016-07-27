@@ -18,5 +18,15 @@ def sign_up():
 	print form_data['message']
 	print form_data['url']
 	return "Merci!"
-	
+
+@app.route("/about-us.html", methods=['POST'])
+def sign_up():
+	form_data = request.form
+	print form_data['name']
+	print form_data['email']
+	print form_data['message']
+	print form_data['url']
+	return "Merci!"
+
+
 app.run()

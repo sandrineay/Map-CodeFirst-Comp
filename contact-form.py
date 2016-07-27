@@ -5,12 +5,12 @@ from flask import render_template
 app = Flask("MyApp")
 
 
-@app.route("/")
+@app.route("/contact")
 def contact():
 	return render_template("index.html")
 
 
-@app.route("/", methods=['POST'])
+@app.route("/contact", methods=['POST'])
 def sign_up():
 	form_data = request.form
 	print form_data['name']

@@ -12,32 +12,38 @@
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					    <span class="sr-only">Toggle navigation</span>
-					    <span class="icon-bar"></span>
-					    <span class="icon-bar"></span>
-					    <span class="icon-bar"></span>
-					</button>
+				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				      	<span class="sr-only">Toggle navigation</span>
+				      	<span class="icon-bar"></span>
+				      	<span class="icon-bar"></span>
+				      	<span class="icon-bar"></span>
+				    </button>
+				    <a class="navbar-brand" href="#">
+				    <img class="Brand" src="../static/images/brand.png">
+				    </a>
 				</div>
 
 				<div class="collapse navbar-collapse">
-					<ul class="nav navbar-nav navbar-left">
+				  	<ul class="nav navbar-nav navbar-right">
 						<li><a href="index.html">London Tech Events</a></li>
-						<li><a href="#">About Us</a></li>
+						<li><a href="#" target='_blank'>About Us</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 
 		<div class='jumbotron'>
-			<div class='container'>
-			<h1>BlaBla</h1>
-			</div>
+			
+			<img src="../static/images/meet-the-team.png" class="center-block img-responsive">
+			
 		</div>
 
-		<div class='container'>
-			<h2>Tribute to Code First, goal is to help navigate events so we can pursue our journey</h2>
-			<p>blablabla</p>
+		<div class='container text-center'>
+			<p><h3>Thanks to <a href="http://www.codefirstgirls.org.uk/" target="_blank">Code First Girls</a> for an amazing 5 weeks of coding!</h3></p>
+			<h5><p>As part of CFG's 2016 summer intensive program, we learnt the basics of HTML, CSS, Javascript and Python.<br>
+			MAP is designed to help girls navigate the tech community after this program, so that they can keep on learning and improving their programming skills!</p>
+			<p>Let's take advantage of all the hackathons and meetups in London!<br>
+			<a href="index.html">Subscribe to our newsletter</a> to receive all the info about the best upcoming tech events in London each Monday morning! </p></h5>
 		</div>
 
 		<hr>
@@ -46,45 +52,31 @@
   			<div class="container">
 				<div class="row">
     				<div class="col-sm-6">
-<<<<<<< HEAD:about-us.html
-      					<img src='images/sandrine-small.png' class="img-circle center-block">
-      					<p>Parcours Sandrine, blablabla</p>
-      				</div>
-
-      				<div class="col-sm-6">
-      					<img src='images/sandrine-small.png' class="img-circle center-block">
-      					<p>Parcours Sandrine, blablabla</p>
-=======
       					<img src='../static/images/sandrine-small.png' class="img-circle center-block">
-      					<p>Parcours Sandrine, blablabla</p>
+      					<h3>Sandrine</h3>
+      					<p>I've worked in tech industry for 4 years, as an analyst for a VC fund, a member of the founding team of TheFamily - a Parisian accelerator -, and as the first employee of a bitcoin startup. <br>
+      					I am taking a break from my latest role as Head of Marketing for a recruitment firm for tech companies to improve my technical skills. <br>
+      					<a href="https://twitter.com/SandrineAy" target="_blank">@SandrineAy</a></p>
       				</div>
 
       				<div class="col-sm-6">
       					<img src='../static/images/sandrine-small.png' class="img-circle center-block">
-      					<p>Parcours Sandrine, blablabla</p>
->>>>>>> origin/master:templates/about-us.html
+      					<h3>Kaitlyn</h3>
+      					<p>A master's student working in the music industry, utilizing tech as a tool to enhance her career goals through advancement as both an entrepreneur and an employee who is literate in a digital world.</p>
       				</div>
       			</div>
 
 				<div class="row">
     				<div class="col-sm-6">
-<<<<<<< HEAD:about-us.html
-      					<img src='images/sandrine-small.png' class="img-circle center-block">
-      					<p>Samantha Pinheiro</p>
-      				</div>
-
-      				<div class="col-sm-6">
-      					<img src='images/sandrine-small.png' class="img-circle center-block">
-      					<p>Mariana Cerqueira</p>
-=======
       					<img src='../static/images/sandrine-small.png' class="img-circle center-block">
-      					<p>Parcours Sandrine, blablabla</p>
+      					<h3>Samantha Pinheiro</h3>
+      					<p>...</p>
       				</div>
 
       				<div class="col-sm-6">
       					<img src='../static/images/sandrine-small.png' class="img-circle center-block">
-      					<p>Parcours Kaitlyn, blablabla</p>
->>>>>>> origin/master:templates/about-us.html
+      					<h3>Mariana Cerqueira</h3>
+      					<p>...</p>
       				</div>
       			</div>
 
@@ -95,11 +87,39 @@
 		<div id='footer' class='text-center'>
 			<div class="container">
 		    	<div id='social-buttons'>
-		    		<button class="btn btn-lg" id="btn-twitter">Twitter</button>
-		    		<button class="btn btn-lg" id="btn-contact">Tell us about your Event!</button>
+		    		<a href="https://twitter.com/LondonTechMap" target="_blank"><button class="btn btn-lg" id="btn-twitter">Twitter</button></a>
+		    		<button class="btn btn-lg" id="btn-contact" data-toggle="modal" data-target="#myModal">Tell us about your Event!</button>
 		    	</div>
 		  	</div>
 		</footer>
+
+		<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+	            <div class="modal-content">
+	              <div class="modal-header">
+		                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		                <h4 class="modal-title">Increase the visibility of your event, get it listed on Map!</h4>
+	              </div>
+	              <div class="modal-body">
+
+		                <form method="post" action="/contact">
+		                	<label for="name">Name: </label>
+		                	<input type="text" id="name" name="name" value="" class="form-control" placeholder="Your name please :)" autofocus="autofocus" /><br>
+		                	<label for="email">Email Address: </label>
+							<input type="email" id="email" name="email" class="form-control" value="" placeholder="name@domain.com" required="required" /><br>
+							<label for="message">What is your event about?</label>
+							<input type="text" id="message" name="message" class="form-control" value="" placeholder="Tell us about your event!" required="required" /><br>
+							<label for="URL">Event URL</label>
+							<input type="url" id="url" name="url" class="form-control" value="" placeholder="http://www.tech-event.com"><br>
+							
+			              <div class="modal-footer">
+			                	<input type="submit" value="Submit" id="submit-button" class="form-control" />
+			              </div>
+		              </form>
+	              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
 
 	</body>
 </html>

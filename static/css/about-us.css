@@ -2,6 +2,19 @@
 	background-image: url('../images/background-about.png');
 	background-size: cover;
 	background-attachment: fixed;
+	height: 400px;
+}
+
+.navbar {
+	height: 70px;
+}
+
+.jumbotron img {
+	padding-top: 80px;
+}
+
+.nav {
+	padding-top: 10px;
 }
 
 li {
@@ -9,7 +22,7 @@ li {
 	padding: 0px 20px 0px 20px;
 }
 
-img {
+#buzz img {
 	padding-bottom: 20px;
 	padding-top: 30px;
 }

@@ -19,15 +19,14 @@ li {
 	padding-top: 90px;
 }
 
+.jumbotron h1 {
+	padding-bottom: 20px;
+}
+
 #header {
 	background-image: url('../images/background.png');
 	background-size: cover;
 	background-attachment: fixed;
-}
-
-#highlight {
-	width: 500px;
-	padding: 20px;
 }
 
 #footer {
@@ -65,5 +64,15 @@ li {
 
 #calendar h1 {
 	padding-bottom: 20px;
+}
+
+#submit-button {
+	background-color: #00acee;
+	color: black;
+	border-color: black;
+}
+
+#newsletter {
+	padding-top: 20px;
 }
 

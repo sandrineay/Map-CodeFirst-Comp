@@ -35,6 +35,7 @@ p{
 #footer {
 	background-color: rgba(32, 35, 41, 0.9);
 	padding-bottom: 40px;
+	padding-top: 20px;
 }
 
 #social-buttons button {
